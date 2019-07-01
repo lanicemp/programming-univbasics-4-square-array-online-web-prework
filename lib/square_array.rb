@@ -9,19 +9,10 @@ end
 
 def square_array(array)
   arr=[]
-  array.each { |  
-numbers = [1,2,3]
-  
-square_array(numbers)
+  array.each { |i|  arr << i ** 2}
+  arr 
 end 
-#def square_array(array)
-  #array = [ 1, 2, 3]
-  #square_array=(array * array)
-#end 
-#num1=4
-#num2=30
-#multiplication = (num1 * num2)
-#end
-  
- # print squared_numbers
-#end
+
+my_arr = [1, 2]
+p square_array(my_arr)
+end 
