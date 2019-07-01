@@ -9,7 +9,7 @@ end
 
 def square_array(array)
   arr=[]
-  array.each { 
+  array.each { |  
 numbers = [1,2,3]
   
 square_array(numbers)
